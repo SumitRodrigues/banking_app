@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { sidebarLinks } from '@/constants'
 import { cn } from '@/lib/utils';
 import { usePathname } from 'next/navigation';
+import Footer from './Footer';
 
 // Ensure SiderbarProps is correctly defined or imported
 interface SiderbarProps {
@@ -56,7 +57,7 @@ const Sidebar = ({ user }: SiderbarProps) => {
                 USER
             </nav>
 
-            FOOTER
+            <Footer user = {user}/>
         </section>
     );
 };
