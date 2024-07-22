@@ -50,40 +50,40 @@ const AuthForm = ({ type }: { type: string }) => {
     // 2. Define a submit handler.
     const onSubmit = async (data: z.infer<typeof formSchema>) => {
         setisLoading(true)
-        try{
+        try {
             //sign up with AppWrite & create plain link token
-            
-            if(type === 'sign-up'){
-            const userData = {
-                firstName: data.firstName!,
-                lastName: data.lastName!,
-                address1: data.address1!,
-                city: data.city!,
-                state: data.state!,
-                postalCode: data.postalCode!,
-                dateOfBirth: data.dateOfBirth!,
-                ssn: data.ssn!,
-                email: data.email,
-                password: data.password,
-            }
 
-            const newUser = await signUp(userData);
+            if (type === 'sign-up') {
+                const userData = {
+                    firstName: data.firstName!,
+                    lastName: data.lastName!,
+                    address1: data.address1!,
+                    city: data.city!,
+                    state: data.state!,
+                    postalCode: data.postalCode!,
+                    dateOfBirth: data.dateOfBirth!,
+                    ssn: data.ssn!,
+                    email: data.email,
+                    password: data.password,
+                }
 
-            setUser(newUser);
+                const newUser = await signUp(userData);
+
+                setUser(newUser);
             }
-            if(type === 'sign-in'){
+            if (type === 'sign-in') {
                 const response = await signIn({
                     email: data.email,
                     password: data.password,
                 })
 
-                if(response) router.push('/')
+                if (response) router.push('/')
             }
         }
-        catch (error){
+        catch (error) {
             console.log(error);
         }
-        finally{
+        finally {
             setisLoading(false);
         }
     }
@@ -116,11 +116,11 @@ const AuthForm = ({ type }: { type: string }) => {
                     </h1>
                 </div>
             </header>
-            {/* {user ? ( */}
+            {user ? (
                 <div className='flex flex-col gap-4'>
                     <PlaidLink user={user} variant="primary" />
                 </div>
-            {/* ) : ( */}
+            ) : (
                 <>
                     <Form {...form}>
                         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-8">
@@ -202,7 +202,7 @@ const AuthForm = ({ type }: { type: string }) => {
                     </footer>
 
                 </>
-            {/* )} */}
+            )}
         </section>
     )
 }
