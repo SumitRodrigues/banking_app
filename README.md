@@ -2,8 +2,6 @@
 
 A Fintech Bank Application
 
-Build this project step by step with our detailed tutorial on [JavaScript Mastery YouTube](https://www.youtube.com/c/JavaScriptMastery). Join the JSM family!
-
 ## 📋 Table of Contents
 - 🤖 [Introduction](#-introduction)
 - ⚙️ [Tech Stack](#️-tech-stack)
@@ -12,7 +10,6 @@ Build this project step by step with our detailed tutorial on [JavaScript Master
 - 🕸️ [Code Snippets to Copy](#️-code-snippets-to-copy)
 - 🔗 [Assets](#-assets)
 - 🚀 [More](#-more)
-- 🚨 [Tutorial](#-tutorial)
 
 ## 🤖 Introduction
 Evergreen Bank is a financial SaaS platform built with Next.js. It connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
