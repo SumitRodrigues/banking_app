@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useSearchParams, useRouter } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import {
   Select,
@@ -21,7 +21,13 @@ export const BankDropdown = ({
 }: BankDropdownProps) => {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const [selected, setSeclected] = useState(accounts[0]);
+  const [selected, setSeclected] = useState<Account | null>(null);
+
+  useEffect(() => {
+    if (accounts.length > 0) {
+      setSeclected(accounts[0]);
+    }
+  }, [accounts]);
 
   const handleBankChange = (id: string) => {
     const account = accounts.find((account) => account.appwriteItemId === id)!;
@@ -38,6 +44,10 @@ export const BankDropdown = ({
       setValue("senderBank", id);
     }
   };
+
+  if (!selected) {
+    return null; // Or a loading spinner if you prefer
+  }
 
   return (
     <Select
