@@ -7,8 +7,7 @@ A Fintech Bank Application
 - ⚙️ [Tech Stack](#️-tech-stack)
 - 🔋 [Features](#-features)
 - 🤸 [Quick Start](#-quick-start)
-- 🕸️ [Code Snippets to Copy](#️-code-snippets-to-copy)
-- 🔗 [Assets](#-assets)
+- 🔗 [Screenshots](#-screenshots)
 
 ## 🤖 Introduction
 Evergreen Bank is a financial SaaS platform built with Next.js. It connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogether.
@@ -96,7 +95,5 @@ npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## 🔗 Assets
-- [Logos](#)
-- [Icons](#)
+## 🔗 Screenshots
 - [Screenshots](#)
