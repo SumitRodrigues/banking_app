@@ -103,6 +103,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 - <img width="1451" alt="Screenshot 2024-11-21 at 3 42 21 PM" src="https://github.com/user-attachments/assets/71313c09-f098-4225-bea4-fd5e619a5e42">
 - <img width="983" alt="Screenshot 2024-11-21 at 3 42 34 PM" src="https://github.com/user-attachments/assets/cb4ce503-202e-43b3-8887-ddec4684a3c9">
 - <img width="1325" alt="Screenshot 2024-11-21 at 3 42 59 PM" src="https://github.com/user-attachments/assets/f286f003-3cf1-46b9-98da-54749164ee88">
+- <img width="1440" alt="Screenshot 2024-11-21 at 3 43 47 PM" src="https://github.com/user-attachments/assets/df98e728-f5aa-4054-a24c-ed1fb3c77f12">
+
 
 
 
