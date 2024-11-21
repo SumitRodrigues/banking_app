@@ -100,6 +100,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 - <img width="1390" alt="Screenshot 2024-11-21 at 3 38 47 PM" src="https://github.com/user-attachments/assets/9e899939-a568-4b85-8c41-aaa064466c51">
 - <img width="1325" alt="Screenshot 2024-11-21 at 3 42 59 PM" src="https://github.com/user-attachments/assets/895571ae-83fd-4b7d-b5a4-2b99d3127be6">
 - <img width="624" alt="Screenshot 2024-11-21 at 3 41 49 PM" src="https://github.com/user-attachments/assets/97f5abce-d7c5-4446-ba6d-8fab70008dc1">
+- <img width="1451" alt="Screenshot 2024-11-21 at 3 42 21 PM" src="https://github.com/user-attachments/assets/71313c09-f098-4225-bea4-fd5e619a5e42">
+- <img width="983" alt="Screenshot 2024-11-21 at 3 42 34 PM" src="https://github.com/user-attachments/assets/cb4ce503-202e-43b3-8887-ddec4684a3c9">
+- <img width="1325" alt="Screenshot 2024-11-21 at 3 42 59 PM" src="https://github.com/user-attachments/assets/f286f003-3cf1-46b9-98da-54749164ee88">
+
+
+
 
 
 
