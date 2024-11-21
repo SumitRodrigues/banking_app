@@ -97,3 +97,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## 🔗 Screenshots
 - [Screenshots](#)
+- <img width="1390" alt="Screenshot 2024-11-21 at 3 38 47 PM" src="https://github.com/user-attachments/assets/9e899939-a568-4b85-8c41-aaa064466c51">
+
